@@ -7,6 +7,10 @@ This repository has something change based on [fresh](https://github.com/pilu/fr
 
 > see PR: [Support godotenv and auto watch imported pkg path #76](https://github.com/pilu/fresh/pull/76)
 
+## Try it
+
+    go get -v github.com/yangxikun/yafresh
+
 # Fresh
 [![Join the chat at https://gitter.im/pilu/fresh](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pilu/fresh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/pilu/fresh.svg?branch=master)](https://travis-ci.org/pilu/fresh)
