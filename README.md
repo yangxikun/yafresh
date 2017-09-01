@@ -1,3 +1,12 @@
+# Yet Another Fresh
+This repository has something change based on [fresh](https://github.com/pilu/fresh)
+
+* Support godotenv
+* Auto watch imported pkg path(use `go list -f '{{ join .Deps "\n"  }}'` command to detect which path should be watch.)
+* Fix bug: [% output in app log problem](https://github.com/yangxikun/yafresh/commit/6d83ad2329bdb5713e7bda285e945b736245cc9f)
+
+> see PR: [Support godotenv and auto watch imported pkg path #76](https://github.com/pilu/fresh/pull/76)
+
 # Fresh
 [![Join the chat at https://gitter.im/pilu/fresh](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/pilu/fresh?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 [![Build Status](https://travis-ci.org/pilu/fresh.svg?branch=master)](https://travis-ci.org/pilu/fresh)
